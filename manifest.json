@@ -17,7 +17,7 @@
       "default_icon": {
         "32": "icons/icon-32.png"
       },
-      "default_title": "Spawn container tabs"
+      "default_title": "Glastotabs"
     },
     "options_ui": {
       "page": "options.html",
