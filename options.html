@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Multi-Container Spawner Options</title>
+</head>
+<body>
+  <h1>Settings</h1>
+  <form id="settings-form">
+    <label>
+      Number of containers (N):
+      <input id="inp-n" type="number" min="1" required>
+    </label>
+    <br><br>
+    <label>
+      URL to open:
+      <input id="inp-url" type="url" size="50" required>
+    </label>
+    <br><br>
+    <button type="submit">Save</button>
+  </form>
+  <div id="status" style="margin-top: 1em; color: green;"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

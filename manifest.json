@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Glasto Tab Spawner",
+    "version": "1.0",
+    "description": "Click the button to spawn N (default 5) container tabs at a given URL (default https://glastonbury.seetickets.com). Configure N and URL in Options.",
+    "permissions": [
+      "contextualIdentities",
+      "tabs",
+      "storage",
+      "cookies",
+      "<all_urls>"
+    ],
+    "browser_action": {
+      "default_title": "Spawn container tabs"
+    },
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": true
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
