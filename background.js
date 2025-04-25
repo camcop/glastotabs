@@ -8,7 +8,7 @@ browser.browserAction.onClicked.addListener(async () => {
     try {
         // load the saved settings (or defaults)
         let { n, url } = await browser.storage.local.get({
-            n: 1,
+            n: 5,
             url: "https://glastonbury.seetickets.com"
         });
         await spawnContainers(n, url);
