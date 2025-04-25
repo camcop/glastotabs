@@ -29,7 +29,7 @@ By default Glastotabs uses:
 - URL to open: https://glastonbury.seetickets.com  
 
 To change these:  
-1. Click the Glastotabs icon and choose **Options**, or go to `about:addons` → **Glastotabs** → **Options**.  
+1. Click the Glastotabs icon and choose **Manage Extension**, or go to `about:addons` → **Glastotabs** → **Three-dot menu** → **Options**.  
 2. Enter your desired **Number of containers (N)** and **URL to open**, then click **Save**.  
 
 Cleaning Up
